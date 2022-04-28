@@ -268,3 +268,155 @@ header {
 .info-img img {
   width: 723px;
 }
+
+.brands {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-height: 30px;
+  opacity: 25%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.brands img {
+  cursor: pointer;
+}
+
+.choice {
+  padding: 0 20px;
+  text-align: left;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.choice::before {
+  content: "";
+  width: 385px;
+  height: 565px;
+  background-image: url(images/stars-left.svg);
+  position: absolute;
+  left: -320px;
+  top: -295px;
+  opacity: 10%;
+}
+
+.choice::after {
+  content: "";
+  background-image: url(images/stars-rigth.svg);
+  width: 385px;
+  height: 565px;
+  position: absolute;
+  right: -250px;
+  top: -250px;
+  opacity: 10%;
+}
+
+.choice-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  color: #99efd0;
+  margin-bottom: 15px;
+}
+.choice-subtitle {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #8476aa;
+  margin-bottom: 50px;
+}
+.choice-table {
+  display: flex;
+  flex-wrap: wrap;
+}
+.choice-item {
+  padding: 0 50px 35px;
+  flex: 1 1 30%;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5,
+.icon6 {
+  position: relative;
+}
+
+.icon1::before {
+  content: "";
+  height: 24px;
+  width: 24px;
+  background-image: url(images/icon1.svg);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.icon2::before {
+  content: "";
+  height: 24px;
+  width: 24px;
+  background-image: url(images/icon2.svg);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.icon3::before {
+  content: "";
+  height: 24px;
+  width: 24px;
+  background-image: url(images/icon3.svg);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.icon4::before {
+  content: "";
+  height: 24px;
+  width: 24px;
+  background-image: url(images/icon4.svg);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.icon5::before {
+  content: "";
+  height: 24px;
+  width: 24px;
+  background-image: url(images/icon5.svg);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.icon6::before {
+  content: "";
+  height: 24px;
+  width: 24px;
+  background-image: url(images/icon6.svg);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.choice-item-title {
+  font-family: "Gilroy", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #99efd0;
+  margin-bottom: 10px;
+}
+.choice-item-text {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #8476aa;
+}
